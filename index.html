@@ -101,6 +101,16 @@
             margin: 0 auto;
         }
 
+        .image {
+            background-size: contain;
+            background-image: url(https://s2.loli.net/2024/08/03/wr8hSDJ4cCgWiyo.jpg);
+            width: 60vw;
+            height: 90vh;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
         .title {
             display: flex;
             align-items: center;
@@ -209,8 +219,11 @@
         </div>
         <div style="text-align: center; display: flex; flex-direction: column; align-items: center; margin: 0">
             <div class="card" style="margin-bottom: 48px;">
-                <div class="card-body"><img class="qrcode middle"
-                        src="https://s2.loli.net/2024/08/03/wr8hSDJ4cCgWiyo.jpg">
+                <div class="card-body">
+                    <div class="image">
+                    </div>
+                    <!-- <img class="qrcode middle"
+                        src="https://s2.loli.net/2024/08/03/wr8hSDJ4cCgWiyo.jpg"> -->
                     <small class="card-text"
                         style="display: flex; justify-content: center; margin-top: 8px">扫码添加微信</small>
                 </div>
