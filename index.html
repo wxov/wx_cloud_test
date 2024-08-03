@@ -97,8 +97,6 @@
         }
 
         .qrcode {
-            height: 144px;
-            width: 144px;
             display: block;
             margin: 0 auto;
         }
@@ -184,8 +182,8 @@
 
         .card {
             margin-top: 16px;
-            width: 320px;
-            height: 200px;
+            /* width: 320px; */
+            /* height: 200px; */
             box-sizing: border-box;
             border: 1px solid rgba(0, 0, 0, 0.10);
             border-radius: 5.71px;
@@ -210,16 +208,9 @@
             <div style="display: inline; margin-bottom: 48px" class="title-text">扫描二维</div>
         </div>
         <div style="text-align: center; display: flex; flex-direction: column; align-items: center; margin: 0">
-            <!-- <span class="count-text">
-                <span style="margin-right: 16px;">当前计数:</span>
-                <span class="count-number"></span>
-                <span class="count-reset" onclick="set('clear')">清零</span>
-            </span>
-            <a class="btn btn-success btn-lg count-button" style="background: #07c160; border: 0"
-                onclick="set('inc')">计数+1</a> -->
-            <div class="card" style="width: 320px; margin-bottom: 48px;">
+            <div class="card" style="margin-bottom: 48px;">
                 <div class="card-body">
-                    <img class="qrcode middle" src="https://github.com/wxov/wx_cloud_test/blob/master/image/20240803161914.jpg" />
+                    <img class="qrcode middle" alt="20240803161914.jpg" src="https://github.com/wxov/wx_cloud_test/blob/master/image/20240803161914.jpg?raw=true">
                     <small class="card-text"
                         style="display: flex; justify-content: center; margin-top: 8px">扫码添加微信</small>
                 </div>
